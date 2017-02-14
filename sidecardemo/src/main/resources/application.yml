@@ -1,0 +1,11 @@
+server:
+  port: 9090
+
+spring:
+  application:
+    name: nodesideapp
+
+sidecar:
+  port: 8081
+  health-uri: http://localhost:8081/health
+  home-page-uri: http://localhost:8081/
